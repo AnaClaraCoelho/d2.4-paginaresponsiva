@@ -1,0 +1,209 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #293651;
+  text-align: justify;
+}
+
+/* SEÇÃO 1 */
+
+nav {
+  background: linear-gradient(to top, #fefefe, #44c8b4 55%);
+  border-radius: 5px;
+  width: 100%;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  opacity: 0.8;
+}
+
+nav a {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 5px;
+  text-decoration: none;
+  color: #293651;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 650;
+  margin-left: 5%;
+}
+
+.introducao_enzo {
+  margin: 0 25%;
+  font-size: 24px;
+}
+
+.intro {
+  color: #00a78e;
+  font-weight: 500;
+}
+
+.information {
+  background-color: #00a78e;
+  color: #f3f3f3;
+  width: 245px;
+  height: 65px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.information:hover {
+  background-color: #05c0a4;
+}
+
+.img_enzo {
+  text-align: center;
+}
+.contrato {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.progress {
+  width: 30%;
+  height: 25px;
+  border: solid 2px;
+  text-align: right;
+  display: inline-block;
+}
+
+.progress div {
+  background-color: #00a78e;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+.um {
+  width: 85%;
+}
+
+.dois {
+  width: 65%;
+}
+
+.tres {
+  width: 85%;
+}
+
+.quatro {
+  width: 70%;
+}
+/*SEÇÃO PROJETOS*/
+
+.projetos {
+  text-align: center;
+  background-color: rgb(235, 232, 232);
+  padding: 50px;
+}
+
+#projetos {
+  display: block;
+  font-size: 30px;
+}
+
+.caixa {
+  display: inline-block;
+  width: 450px;
+  height: 450px;
+  background-color: #ffffff;
+  margin: 1%;
+  padding: 8px;
+  font-size: 22px;
+  vertical-align: top;
+}
+
+.container {
+  text-align: center;
+  margin: 0 20%;
+}
+.caixa img {
+  width: 85px;
+  position: relative;
+  right: 29%;
+  top: 5%;
+}
+
+/*SEÇÃO CONTATOS*/
+
+.regiao_contato {
+  background-image: url(../img/mapamundo.png);
+  background-position: 10%;
+  font-size: 26px;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  margin-left: 175px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #1ecab0;
+}
+
+/*SEÇÃO RODAPÉ*/
+
+.rodape {
+  height: 250px;
+  text-align: center;
+  font-size: 28px;
+  background-color: rgb(235, 232, 232);
+  padding: 70px;
+}
+
+.icones {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.71);
+}
+.icones img {
+  width: 35px;
+}
+
+.icones:hover {
+  background-color: rgb(198, 198, 198);
+}
+.introducao_enzo,
+.progessbar,
+.projetos,
+.regiao_contato {
+  margin-bottom: 90px;
+}
+
+@media (max-width: 720px) {
+  nav {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+  }
+
+  nav a {
+    display: block;
+    font-size: 19px;
+    font-weight: 450;
+    padding: 3px;
+  }
+
+  .information {
+    width: 235px;
+    height: 58px;
+    font-size: 20px;
+  }
+
+  .img_enzo > img {
+    height: 550px;
+    width: 370px;
+  }
+
+  .regiao_contato {
+    margin-top: 37px;
+    font-size: 25px;
+    width: 61%;
+    margin-left: 152px;
+  }
+}
