@@ -167,6 +167,7 @@ nav a {
 .icones:hover {
   background-color: rgb(198, 198, 198);
 }
+
 .introducao_enzo,
 .progessbar,
 .projetos,
@@ -175,35 +176,52 @@ nav a {
 }
 
 @media (max-width: 720px) {
+  .introducao_enzo {
+    font-size: 21px;
+  }
   nav {
-    width: 100%;
     height: 100px;
-    position: absolute;
-    top: 0;
   }
 
   nav a {
-    display: block;
+    margin-top: 12px;
+    padding: 4px;
+    font-size: 24px;
+    margin-left: 5%;
+  }
+
+  .informatin {
+    width: 232px;
+    height: 61px;
     font-size: 19px;
-    font-weight: 450;
-    padding: 3px;
   }
 
-  .information {
-    width: 235px;
-    height: 58px;
-    font-size: 20px;
+  .img_enzo img {
+    width: 268px;
+    margin-top: 16%;
   }
 
-  .img_enzo > img {
-    height: 550px;
-    width: 370px;
+  .contrato {
+    font-size: 37px;
   }
 
-  .regiao_contato {
-    margin-top: 37px;
-    font-size: 25px;
-    width: 61%;
-    margin-left: 152px;
+  .progress {
+    width: 71%;
+    height: 26px;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .caixa {
+    width: 426px;
+    height: 443px;
+    padding: 4px;
+  }
+
+  .caixa img {
+    width: 66px;
+    right: 31%;
   }
 }
